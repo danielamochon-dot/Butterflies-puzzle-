@@ -1,0 +1,16 @@
+.puzzle-container {
+    display: flex;          
+    flex-wrap: wrap;        
+    max-width: 800px;       
+    margin: 0 auto;
+}
+
+.puzzle-container img {
+    width: 25%;             
+    height: auto;
+    display: block;
+}
+
+.faulty-piece {
+    display: none;
+}
